@@ -4,6 +4,7 @@ Helper functions to compress depth and infrared video acquired using the Datta L
 ## How to install
 
 Make sure you have a version of `ffmpeg` installed that supports the `libx265` codec.
+Recent versions of `ffmpeg` should support this codec, but you can check by running `ffmpeg -hide_banner -codecs | grep libx265` in the terminal and looking for any output containing `libx265`.
 
 Activate the `conda` environment you choose to install this script in.
 
