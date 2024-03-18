@@ -3,12 +3,17 @@ Helper functions to compress depth and infrared video acquired using the Datta L
 
 ## How to install
 
+Make sure you have a version of `ffmpeg` installed that supports the `libx265` codec.
+
 Activate the `conda` environment you choose to install this script in.
 
 Then pip install it:
 `pip install git+https://github.com/wingillis/moseq-compression.git@v0.1`
 
 Change `v0.1` to the version you want to install. The current version as of 2024-03-17 is `v0.1`.
+
+To upgrade, run the following command with the new version number. For example:
+`pip install -U git+https://github.com/wingillis/moseq-compression.git@v0.2`
 
 ## How to use
 

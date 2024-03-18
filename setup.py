@@ -1,8 +1,10 @@
 from setuptools import setup
 
+
 setup(
     name='moseq-compress',
     version='0.1',
+    author='Winthrop Gillis',
     py_modules=['main'],
     install_requires=[
         'click',
@@ -16,4 +18,5 @@ setup(
         [console_scripts]
         moseq-compress=main:main
     ''',
+    url='https://github.com/wingillis/moseq-compression'
 )
