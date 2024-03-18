@@ -125,6 +125,12 @@ def main(path, scale):
             str(compressed_ir_path),
         ])
 
+    print("Finished compressing videos.")
+    if has_ir:
+        print("You may now delete the original depth.avi and ir.avi files.")
+    else:
+        print("You may now delete the original depth.avi file.")
+
 
 if __name__ == '__main__':
     main()
