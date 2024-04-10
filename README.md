@@ -9,7 +9,7 @@ Recent versions of `ffmpeg` should support this codec, but you can check by runn
 Activate the `conda` environment you choose to install this script in.
 
 Then pip install it:
-`pip install git+https://github.com/wingillis/moseq-compression.git@v0.1.1`
+`pip install git+https://github.com/wingillis/moseq-compression.git@v0.1.2`
 
 Change `v0.1.1` to the version you want to install. The current version as of 2024-04-10 is `v0.1.2`.
 
