@@ -12,7 +12,7 @@ setup(
         'numpy',
         'av',
         'tqdm',
-        'opencv-python-headless',
+        'opencv-python==4.1.2.30',
     ],
     entry_points='''
         [console_scripts]
