@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='moseq-compress',
-    version='0.1.2',
+    version='0.1.3',
     author='Winthrop Gillis',
     py_modules=['main'],
     install_requires=[

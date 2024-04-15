@@ -9,9 +9,9 @@ Recent versions of `ffmpeg` should support this codec, but you can check by runn
 Activate the `conda` environment you choose to install this script in.
 
 Then pip install it:
-`pip install git+https://github.com/wingillis/moseq-compression.git@v0.1.2`
+`pip install git+https://github.com/wingillis/moseq-compression.git@v0.1.3`
 
-Change `v0.1.1` to the version you want to install. The current version as of 2024-04-10 is `v0.1.2`.
+Change `v0.1.1` to the version you want to install. The current version as of 2024-04-14 is `v0.1.3`.
 
 To upgrade, run the following command with the new version number. For example:
 `pip install -U git+https://github.com/wingillis/moseq-compression.git@v0.2`
@@ -20,7 +20,9 @@ To upgrade, run the following command with the new version number. For example:
 
 After installation, you can use the `moseq-compress` command in the terminal to select a MoSeq recording folder and compress the depth and infrared (if present) videos within.
 
-Folders **must** be extracted using [moseq2-extract](https://github.com/dattalab/moseq2-extract) before using this tool.
+Depth videos (`depth.avi`) can be compressed into `.mp4` files without the requirement of extraction.
+
+However, folders **must** be extracted first using [moseq2-extract](https://github.com/dattalab/moseq2-extract) before using the `--crop` flag to further reduce file size.
 
 There are two main ways to use this tool:
 
