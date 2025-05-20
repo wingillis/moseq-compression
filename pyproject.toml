@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moseq-compress"
+version = "0.1.4"
+description = "Compress MoSeq depth videos"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "Winthrop Gillis", email = "win.gillis@gmail.com"}
+]
+dependencies = [
+    "av==14.2",
+    "click>=8.1.8",
+    "h5py>=3.13.0",
+    "numpy>=2.2.5",
+    "opencv-python-headless>=4.11.0.86",
+    "tqdm>=4.67.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/wingillis/moseq-compression"
+
+[project.scripts]
+moseq-compress = "main:main"
